@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "shareNRemember",
+    "slug": "shareNRemember",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "extra": {
+      "oneSignalAppId": "abc31d42-1d21-4cbc-a161-b3029eb805fc"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.SNR.shareNRemember"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.SNR.shareNRemember"
+    },
+    "plugins": [
+    [
+      "onesignal-expo-plugin",
+      {
+        "mode": "development"
+      }
+    ]
+  ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
